@@ -3,13 +3,12 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - master  # или master, в зависимости от названия вашей основной ветки
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.PAT }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
