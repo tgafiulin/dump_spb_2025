@@ -25,12 +25,12 @@
 
 .slide th:first-child,
 .slide td:first-child {
-    padding-left: var(--slide-side);
+    padding-left: 96px;
 }
 
 .slide th:last-child,
 .slide td:last-child {
-    padding-right: var(--slide-side);
+    padding-right: 96px;
 }
 
 /* Lines */
