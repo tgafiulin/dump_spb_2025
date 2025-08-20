@@ -1,5 +1,9 @@
 @import url('./icons/icons.css');
 
+* {
+    font-size: 20px;;
+}
+
 .slide h2 {
     color: #000;
 }
@@ -132,7 +136,7 @@
 }
 
 li {
-    font-size: 80%;
+    font-size: 100%;
 }
 
 #slide55::after,
